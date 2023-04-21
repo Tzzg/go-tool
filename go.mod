@@ -1,4 +1,4 @@
-module tools
+module github.com/Tzzg/go-tool
 
 go 1.18
 

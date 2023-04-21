@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/Tzzg/go-tool/Data"
 	"log"
-	"tools/Data"
 )
 
 func main() {
