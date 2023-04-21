@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/Tzzg/go-tool/Data"
+	"github.com/Tzzg/go-tool/data"
 	"github.com/Tzzg/go-tool/worker_pool"
 	"log"
 	"time"
@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// test Data
-	a := Data.StrToMd5("asdsa", 10)
+	a := data.StrToMd5("asdsa", 10)
 	log.Printf(a)
 
 	// test work pool
